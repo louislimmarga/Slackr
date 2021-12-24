@@ -1,0 +1,5 @@
+#!/bin/sh
+folder='/tmp/merge_frontend_fix';
+mkdir $folder
+git clone gitlab@gitlab.cse.unsw.edu.au:COMP1531/19T3-cs1531-project.git $folder
+cp -r $folder/frontend/* ./frontend/

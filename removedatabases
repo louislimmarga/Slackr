@@ -1,0 +1,2 @@
+#!/bin/sh
+rm -f channelsData.p channelsMessages.p resetCodes.p unusedMessageID.p usersData.p channelsTimer.p usersImageNames.p

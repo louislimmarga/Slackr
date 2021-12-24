@@ -1,0 +1,16 @@
+In the second iteration, we need to implement the backend functions. This means that we need to verify and validate our functions to assure that the backend function is fit for purpose.
+
+
+Verifications are done in order to make sure that our functions have been built right. We use several testing to verify our functions:
+
+
+#1 Unit testing : The first test we did is unit testing. Since we grouped the functions separately according to their main route (such as user, channel, auth, messages), we tested the functions according to their main route. Unit testing needs to be done correctly to make sure that each module works as they are intended to. Therefore, we test all our functions individually as well as within their groups (e.g. auth/login and auth/logout are in one group, user/profile and user/profile/setname are in one group, etc) manually so we could control the data and evaluate the processes. We also test all possible cases to know that it meets its specification and behave as intended. However, we are still not sure that our functions could work when we integrate different group together.
+
+
+#2 Integration testing : Integration testing occurs after unit testing. We integrate all our modules together and test it in order to evaluate and verify our functions. We make sure that each modules work with each other perfectly without any errors. Since we did unit testing before integration testing, we only encounter small error because of miscommunications. We tested our program by grouping together the groups(user, channel, auth, messages) in order to make a major part of the system and then test them. This approach saves time since we could immediately know if the functions do not work properly when integrated with other group. Black box testing will be used first in order to know if the functions work as intended. Then if there are some errors, we must fix our code in order to make sure that the functions work together and data could flow across the modules.
+
+
+#3 System testing : We need to make sure that our backend code works with the frontend once we integrate them. We need to make sure that the backend does not cause any bug on the frontend of the program. We could not do much for system testing because it is a rather small project and 
+
+
+Validation refers to if the software satisfies and fits the inteded use which means that the software must meet the user requirements. Since we don't have any customers or users, we consider our own teammates as our customers and users. Firstly we integrate the backend and frontend, then we follow the specification of the project and compare it to slack so we could get a general idea what would be the user requirements. Then we tested all the functionality of our project. Once we are satisfied with how our project works, we stop the testing.
