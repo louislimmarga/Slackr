@@ -1,6 +1,6 @@
-# COMP1531 Major Project
+# Slackr
 
-A video describing this project and the background here can be found here.
+COMP1531 Major Project
 
 ## Aims:
 
